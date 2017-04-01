@@ -1,0 +1,9 @@
+*.swp
+moc*
+*.o
+*.so
+*.dylib
+*.stash
+bin/meaview
+bin/meactl
+bin/blds
