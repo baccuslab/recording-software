@@ -1,26 +1,26 @@
 [submodule "libdatafile"]
 	path = libdatafile
-	url = https://github.com/baccuslab/libdatafile.git
+	url = git@github.com:/baccuslab/libdatafile.git
 	branch = master
 [submodule "libblds-client"]
 	path = libblds-client
-	url = https://github.com/baccuslab/libblds-client.git
+	url = git@github.com:/baccuslab/libblds-client.git
 	branch = master
 [submodule "libdata-source"]
 	path = libdata-source
-	url = https://github.com/baccuslab/libdata-source.git
+	url = git@github.com:/baccuslab/libdata-source.git
 	branch = master
 [submodule "blds"]
 	path = blds
-	url = https://github.com/baccuslab/blds.git
+	url = git@github.com:/baccuslab/blds.git
 	branch = master
 [submodule "meactl"]
 	path = meactl
-	url = https://github.com/baccuslab/meactl.git
+	url = git@github.com:/baccuslab/meactl.git
 	branch = master
 [submodule "meaview"]
 	path = meaview
-	url = https://github.com/baccuslab/meaview.git
+	url = git@github.com:/baccuslab/meaview.git
 	branch = master
 [submodule "tufao"]
 	path = tufao
