@@ -39,7 +39,7 @@ in a particular order. The script knows how to do this.
 The submodules are supposed to track the master branch of their respective
 repositories. If those change, run:
 
-	$ git submodule update --recursive
+	$ git submodule update --remote --recursive
 	$ ./build-all.sh
 
 ## Submodules
