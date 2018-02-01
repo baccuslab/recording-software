@@ -24,3 +24,12 @@ do
 	fi
 	cd ..
 done
+
+declare -a EXECUTABLES=(blds meaview meactl)
+BINDIR="$PWD/bin"
+for EXEC in "${EXECUTABLES[@]}"
+do
+	FILENAME="$BINDIR/$EXEC"
+	echo "rm -f "$FILENAME""
+	rm -f "$FILENAME"
+done

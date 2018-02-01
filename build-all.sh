@@ -41,7 +41,7 @@ do
 	else
 
 		# Other components are just straight Qt builds
-		qmake && make -j4 release
+		qmake && make -j release
 	fi
 
 	# Move back to main super-repo folder
@@ -53,6 +53,9 @@ done
 declare -a EXECUTABLES=(blds meactl meaview)
 for EXEC in "${EXECUTABLES[@]}"
 do
-	ln -sf "$(PWD)/$EXEC/$EXEC" "$(PWD)/bin/"
+	TARGET="$PWD/$EXEC/$EXEC"
+	LINKNAME="$PWD/bin"
+	echo "ln -sf "$TARGET" "$LINKNAME""
+	ln -sf "$TARGET" "$LINKNAME"
 done
 
