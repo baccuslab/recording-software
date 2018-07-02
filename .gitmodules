@@ -26,3 +26,7 @@
 	path = tufao
 	url = https://github.com/vinipsmaker/tufao.git
 	branch = 1.x
+[submodule "oatool"]
+	path = oatool
+	url = https://github.com/baccuslab/oatool.git
+	branch = master
